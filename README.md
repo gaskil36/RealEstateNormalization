@@ -1,7 +1,7 @@
 ## Assignment 3 - Normalizing Spatial Data in a Real Estate Database
 
 ### **Objectives:**
-#### The objective of this lab is to work with Third and Fourth Order Normalization in PostGreSQL. I created a database with a table that violates 3NF and 4NF then worked to fix the issues and demonstrate compliance. I then added extra dummy data from Worcester to demonstrate the population of all new tables with data, and ran a spatial query based on distance.
+#### The objective of this lab is to work with Third and Fourth-Order Normalization in PostgreSQL. I created a database with a table that violates 3NF and 4NF then worked to fix the issues and demonstrate compliance. I then added extra dummy data from Worcester to demonstrate the population of all new tables with data and ran a spatial query based on distance.
 
 ### **Files:**
 #### 1. Gaskill_Assignment_3.sql
@@ -22,10 +22,10 @@
 
 #### The dummy data was deleted and replaced with 3 locations in Worcester, including the National Grid Power Company, Clark University, and the DCU Center. Appropriate fields were entered into each table to demonstrate compliance up to the 4th Normal Form.
 
-#### Finally, a Spatial Query was run to find properties within 2 km of Worcester City Hall. Please note that the spatial query still returns all 3 when I expected it to only return 2. This is since National Grid is ~5km away and should not be included.
+#### Finally, a Spatial Query was run to find properties within 2 km of Worcester City Hall. Please note that the spatial query still returns all 3 when I expected it to only return 2. This is because National Grid is ~5km away and should not be included.
 
 ### **Initial Database and Table Creation:**
-![This file contains all of the inital SQL Scripts required to generate the required tables.](/Images/database_creation.png)
+![This file contains all of the initial SQL Scripts required to generate the required tables.](/Images/database_creation.png)
 
 ### **Empty Table Structure:**
 ![This file contains the complete empty table structure of each table, demonstrating 4NF compliance.](/Images/empty_tables.png)
