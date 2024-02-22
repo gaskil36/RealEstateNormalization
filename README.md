@@ -20,7 +20,7 @@
 
 #### Test data provided in the lab document was inserted into the database and a test spatial query using PostGIS and ST_DWithin was successfully run. 
 
-#### The dummy data was deleted and replaced with 3 locations in Worcester, including the National Grid Power Company, Clark University, and the DCU Center. Appropriate fields were entered into each table to demonstrate compliance up to the 4th Normal Form.
+#### The dummy data was deleted and replaced with 3 locations in Worcester, including the National Grid Power Company, Clark University, and the DCU Center. Appropriate fields were entered into each table to demonstrate compliance up to the 4th Normal Form. An assumption was made for the utility field that there is only one utility (general purpose) for each location, such as 'electric company', 'education', and 'entertainment'.
 
 #### Finally, a Spatial Query was run to find properties within 2 km of Worcester City Hall. Please note that the spatial query still returns all 3 when I expected it to only return 2. This is because National Grid is ~5km away and should not be included.
 
